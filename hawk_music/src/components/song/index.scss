@@ -1,0 +1,71 @@
+.one-song {
+    padding: 4px 32px 24px 0px;
+}
+
+.tile {
+    position: relative;
+    height: 185px;
+    width: 185px;
+}
+
+.tile .icon {
+    width: 100%;
+    height: auto;
+}
+.modal-style{
+    padding: 16px;
+    position: absolute;
+    border-radius: 24px;
+    height: 50%;
+    width: 25%;
+    transform: translate(50%,50%);
+    background-color: #131313;
+}
+
+.outline {
+    border: none;
+    background: none;
+    float: right;
+    margin: 20px 20px 0px 0px;
+    size: 20px;
+    color: white;
+}
+.icon {
+    margin: 0px;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+.play-song{
+    background: none;
+}
+.tile .play-song {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    //color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+}
+.fill {
+    color: white;
+}
+.dim {
+    opacity: 0.5
+}
+
+.hide {
+    display: none;
+}
+
+#songName,
+#songArtist {
+    color: white;
+}

@@ -1,0 +1,37 @@
+{"lists" : {
+    "FreqPlay":  [
+        {"song":"Faded", "artist":"Alan Walker","url":"D:/Hawk_project/Backend/music/Har Har Shambhu Shiv Mahadeva (feat_ Abhilipsa Panda).MP3"
+        },
+        {"song":"Ignite","artist":"k-391","url":"https://music.youtube.com/watch?v=Oa9-UdjJ7RY&feature=share"
+        },
+        {"song":"War of Change","artist":"Thousand Foot Crutch","url":"https://music.youtube.com/watch?v=Oa9-UdjJ7RY&feature=share"
+        },
+        {"song":"Har Har Mahadev","artist":"Indian Mussic","url":"https://music.youtube.com/watch?v=Oa9-UdjJ7RY&feature=share"
+        },
+        {"song":"Vadi Pulla Vadi","artist":"Hip Hop Tamiza","url":"https://music.youtube.com/watch?v=Oa9-UdjJ7RY&feature=share"
+        },
+        {"song":"Rooba Rooba","artist":"Hip Hop Tamiza","url":"https://music.youtube.com/watch?v=Oa9-UdjJ7RY&feature=share"
+        }
+    ],
+    "TopPlay":  [
+        {"song":"Har Har Mahadev","artist":"Indian Mussic","url": "https://music.youtube.com/watch?v=Oa9-UdjJ7RY&feature=share"
+        },
+        {"song":"Vadi Pulla Vadi","artist":"Hip Hop Tamiza","url": "https://music.youtube.com/watch?v=Oa9-UdjJ7RY&feature=share"
+        },
+        {"song":"Rooba Rooba","artist":"Hip Hop Tamiza","url": "https://music.youtube.com/watch?v=Oa9-UdjJ7RY&feature=share"
+        },
+        {"song":"Faded", "artist":"Alan Walker","url": "https://music.youtube.com/watch?v=Oa9-UdjJ7RY&feature=share"
+        },
+        {"song":"Ignite","artist":"k-391","url": "https://music.youtube.com/watch?v=Oa9-UdjJ7RY&feature=share"
+        },
+        {"song":"War of Change","artist":"Thousand Foot Crutch","url": "https://music.youtube.com/watch?v=Oa9-UdjJ7RY&feature=share"
+        },
+        {"song":"Faded", "artist":"Alan Walker","url": "https://music.youtube.com/watch?v=Oa9-UdjJ7RY&feature=share"
+        },
+        {"song":"Ignite","artist":"k-391","url": "https://music.youtube.com/watch?v=Oa9-UdjJ7RY&feature=share"
+        },
+        {"song":"War of Change","artist":"Thousand Foot Crutch","url": "https://music.youtube.com/watch?v=Oa9-UdjJ7RY&feature=share"
+        }
+    ]
+}
+}

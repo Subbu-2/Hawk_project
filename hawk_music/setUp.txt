@@ -1,0 +1,22 @@
+Projects has both server and client modules.
+
+Server : 
+
+Uses Nodejs.
+
+To run the server it is currently configured on prot 8080.
+Start Server: npm run dev
+
+Client: 
+
+Install dependencies to make the client up and running.
+
+Start server: npm start
+
+
+Mutlipage: 
+
+/ - opens homepage
+/player - opens player
+/about - open about page ( currently Empty )
+/playlists - for saved playlists

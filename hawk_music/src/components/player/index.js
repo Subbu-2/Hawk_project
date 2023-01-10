@@ -31,19 +31,18 @@ function Player() {
     <div className='player-container'>
         <div className='player-content'>
             <div className='text-style'>
-            <h4>{locationState.songName}</h4>
-            <h4>{locationState.artistName}</h4>
+                <h4>{locationState.songName}</h4>
+                <h4>{locationState.artistName}</h4>
             </div>
-        
         <div className='song-thumbnail'>
             <img src={Thumbnail} alt='music icon' className='song-image'/>
         </div>
-        <div className="player-button">
-        <Button  className='naked-button prev'> <FaChevronLeft className='fill' /> </Button>
-        {playbutton && <Button onClick={() => playSong(locationState.url)} className='naked-button play'> <FaPlay size={'2em'} className='fill' /> </Button>}
-        {!playbutton && <Button onClick={() => playSong(src)} className='naked-button play'> <FaPause size={'2em'} className='fill' /> </Button>}
-        <Button  className='naked-button next'> <FaChevronRight className='fill' /> </Button>
-        </div>
+            <div className="player-button">
+                <Button className='naked-button prev'> <FaChevronLeft className='fill' /> </Button>
+                {playbutton && <Button onClick={() => playSong(locationState.url)} className='naked-button play'> <FaPlay size={'2em'} className='fill' /> </Button>}
+                {!playbutton && <Button onClick={() => playSong(src)} className='naked-button play'> <FaPause size={'2em'} className='fill' /> </Button>}
+                <Button className='naked-button next'> <FaChevronRight className='fill' /> </Button>
+            </div>
         </div>
     </div>
     )

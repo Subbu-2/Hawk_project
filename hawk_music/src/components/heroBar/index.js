@@ -12,11 +12,11 @@ const HeroBar = () => {
   return (
     <div className='top-menu'>
       <nav className="nav">
-        <a href="#" className="nav-brand"><BrandLogo/></a>
+        <a href="/" className="nav-brand"><BrandLogo/></a>
         <ul className={active}>
-          <li className="nav-item"><a href="#" className="nav-link">Home</a></li>
-          <li className="nav-item"><a href="#" className="nav-link">PlayLists</a></li>
-          <li className="nav-item"><a href="#" className="nav-link">Podcasts</a></li>
+          <li className="nav-item"><a href="/" className="nav-link">Home</a></li>
+          <li className="nav-item"><a href="/playlists" className="nav-link">PlayLists</a></li>
+          <li className="nav-item"><a href="/about" className="nav-link">About</a></li>
         </ul>
         <div onClick={navToggle} className={toggleIcon}>
           <div className="line1"></div>
